@@ -25,6 +25,7 @@ Bundle 'tpope/vim-commentary'
 Plugin 'scrooloose/nerdtree'
 Plugin 'NLKNguyen/papercolor-theme'
 Plugin 'elmcast/elm-vim'
+Plugin 'trusktr/seti.vim'
 
 "Status bar
 Bundle 'bling/vim-airline'
@@ -67,7 +68,8 @@ set guifont=Meslo\ LG\ S\ DZ\ for\ Powerline:h12
 
 syntax enable
 set background=dark
-colorscheme PaperColor
+"colorscheme PaperColor
+colorscheme seti
 
 let g:UltiSnipsExpandTrigger="<tab>"
 let g:UltiSnipsJumpForwardTrigger="<c-b>"
